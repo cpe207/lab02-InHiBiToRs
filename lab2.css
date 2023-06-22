@@ -1,0 +1,46 @@
+div {
+  display: block;
+}
+
+.skill-container {
+  border: solid rgb(47, 228, 74);
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5rem;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.center {
+  color: rgb(8, 8, 14);
+  text-align: center;
+  font-style: oblique;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  width: 267px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #dddddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #1828a0;
+  color: white;
+}
