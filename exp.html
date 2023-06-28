@@ -5,38 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/lab02-InHiBiToRs/lab2.css" rel="stylesheet" />
     <title>My Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div class="center">
-      <h1>My Portfolio</h1>
-      <div class="topnav">
-        <a href="/lab02-InHiBiToRs/index.html">Home</a>
-        <a class="active" href="/lab02-InHiBiToRs/exp.html">Experience</a>
-        <a href="/lab02-InHiBiToRs/contact.html">Contact</a>
+    <div class="d-flex border-bottom gap-3 align-items-center p-3 px-5 bg-dark">
+      <h1 class="text-light">My Portfolio</h1>
+      <a
+        href="/lab02-InHiBiToRs/index.html"
+        class="text-decoration-none mx-auto text-light"
+        >Home</a
+      >
+      <a
+        href="/lab02-InHiBiToRs/exp.html"
+        class="text-decoration-none mx-auto text-light"
+        >Experience</a
+      >
+      <a
+        href="/lab02-InHiBiToRs/Gallery.html"
+        class="text-decoration-none mx-auto text-light"
+        >Gallery</a
+      >
+      <a
+        href="/lab02-InHiBiToRs/contact.html"
+        class="text-decoration-none mx-auto text-light"
+        >Contact</a
+      >
+    </div>
+    <div class="text-center fs-3 my-3">Experience</div>
+    <div class="mx-auto px-3" style="max-width: 600px">
+      <div class="d-flex border mb-3 shadow-sm">
+        <div>
+          <img
+            src="/lab02-InHiBiToRs/imgs/SLEEP PERCEPTION.webp"
+            width="150px"
+            height="150px"
+            class="d-none d-sm-block"
+            style="object-fit: cover"
+          />
+        </div>
+        <div class="p-4">
+          <p class="fw-bold fs-5">Sleeping</p>
+          <span class="text-muted"
+            >Do u know that normal people only sleep for 4-6 Hours but U should
+            sleep for 8-10 hours.</span
+          >
+        </div>
       </div>
-      <img
-        src="/lab02-InHiBiToRs/imgs/3683.webp"
-        width="500px"
-        height="300px"
-      />
-      <h2><br />Tanakrit Boonyoung</h2>
-      <p class="lead mb-4">
-        Helloooo Friend !!!! My name is Ohm. &#127747; Good morning & good
-        night. &#127747;
-      </p>
-
-      <h2>Experience</h2>
-      <div class="skill-container">
-        <h3>Sleeping</h3>
-        <p>
-          Do u know that normal people only sleep for 4-6 Hours but U should
-          sleep for 8-10 hours
-        </p>
+      <div class="d-flex border mb-3 shadow-sm">
+        <div class="p-4">
+          <p class="fw-bold fs-5">Gaming</p>
+          <span class="text-muted"
+            >I am one of the man who play a ton of game from steam and Epic
+            store.</span
+          >
+        </div>
+        <div class="ms-auto">
+          <img
+            src="/lab02-InHiBiToRs/imgs/Gaming.jpg"
+            width="180px"
+            height="150px"
+            class="d-none d-sm-block"
+            style="object-fit: cover"
+          />
+        </div>
       </div>
-      <div class="skill-container">
-        <h3>Gaming</h3>
-        <p>I am one of the man who play a ton of game of steam</p>
+      <div class="d-flex border mb-3 shadow-sm">
+        <div>
+          <img
+            src="/lab02-InHiBiToRs/imgs/TravelBlog.BeachMainV2.webp"
+            width="180px"
+            height="150px"
+            class="d-none d-sm-block"
+            style="object-fit: cover"
+          />
+        </div>
+        <div class="p-4">
+          <p class="fw-bold fs-5">Beach trip</p>
+          <span class="text-muted"
+            >My hometown is close to the sea. So I often have the opportunity to
+            go to the beach.</span
+          >
+        </div>
       </div>
     </div>
+    <p class="text-center text-muted m-4">
+      © 2023 lab03-InHiBiToRs.com by Tanakrit Boonyoung
+    </p>
   </body>
 </html>

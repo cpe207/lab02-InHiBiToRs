@@ -5,34 +5,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/lab02-InHiBiToRs/lab2.css" rel="stylesheet" />
     <title>My Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div class="center">
-      <h1>My Portfolio</h1>
-      <div class="topnav">
-        <a class="active" href="/lab02-InHiBiToRs/index.html">Home</a>
-        <a href="/lab02-InHiBiToRs/exp.html">Experience</a>
-        <a href="/lab02-InHiBiToRs/contact.html">Contact</a>
+    <div class="d-flex border-bottom gap-3 align-items-center p-3 px-5 bg-dark">
+      <h1 class="text-light">My Portfolio</h1>
+      <a
+        href="/lab02-InHiBiToRs/index.html"
+        class="text-decoration-none mx-auto text-light"
+        >Home</a
+      >
+      <a
+        href="/lab02-InHiBiToRs/exp.html"
+        class="text-decoration-none mx-auto text-light"
+        >Experience</a
+      >
+      <a
+        href="/lab02-InHiBiToRs/Gallery.html"
+        class="text-decoration-none mx-auto text-light"
+        >Gallery</a
+      >
+      <a
+        href="/lab02-InHiBiToRs/contact.html"
+        class="text-decoration-none mx-auto text-light"
+        >Contact</a
+      >
+    </div>
+    <div
+      class="d-flex justify-content-center align-items-center mx-auto gap-3"
+      style="max-width: 700px"
+    >
+      <div>
+        <img
+          src="/lab02-InHiBiToRs/imgs/355806193_281975447725746_4215408273212091749_n.jpg"
+          width="200px"
+          height="200px"
+          class="rounded-circle"
+          style="object-fit: cover"
+        />
       </div>
-      <img
-        src="/lab02-InHiBiToRs/imgs/3683.webp"
-        width="500px"
-        height="300px"
-      />
-      <h2><br />Tanakrit Boonyoung</h2>
-      <p class="lead mb-4">
-        Helloooo Friend !!!! My name is Ohm. &#127747; Good morning & good
-        night.&#127747;
-      </p>
-      <h2>Skill</h2>
-      <div class="skill-container">
-        <h3>Programming</h3>
-        <p>I can coding C++ Html & javascript</p>
-      </div>
-      <div class="skill-container">
-        <h3>Invisible man</h3>
-        <p>I can be invisible from the class in 3 2 1....&#128565;</p>
+      <div class="d-none d-sm-block">
+        <div class="display-5 mt-2">Tanakrit Boonyoung</div>
+        <div class="text-muted mb-5" style="max-width: 290px">
+          Helloooo Friend !!!! My name is Ohm. &#127747; Good morning & good
+          night.&#127747;
+        </div>
       </div>
     </div>
+    <div class="display-5 d-sm-none text-center my-3">Tanakrit Boonyoung</div>
+    <div class="text-center fs-3">Skill</div>
+    <div class="mx-auto px-3" style="max-width: 600px">
+      <div class="d-flex border mb-3 shadow-sm">
+        <div>
+          <img
+            src="/lab02-InHiBiToRs/imgs/ProgrammingIllustration.png"
+            width="120px"
+            height="120px"
+            class="d-none d-sm-block"
+            style="object-fit: cover"
+          />
+        </div>
+        <div class="p-4">
+          <p class="fw-bold fs-5">Programming</p>
+          <span class="text-muted">I can coding C++ Html & javascript</span>
+        </div>
+      </div>
+      <div class="d-flex border mb-3 shadow-sm">
+        <div class="p-4">
+          <p class="fw-bold fs-5">Invisible man</p>
+          <span class="text-muted"
+            >I can be invisible from the class in 3 2 1....&#128565;</span
+          >
+        </div>
+        <div class="ms-auto">
+          <img
+            src="/lab02-InHiBiToRs/imgs/o7ftlz7j0yqsu3Yc6Z8-o.jpg"
+            width="120px"
+            height="120px"
+            class="d-none d-sm-block"
+            style="object-fit: cover"
+          />
+        </div>
+      </div>
+      <div class="d-flex border mb-3 shadow-sm">
+        <div>
+          <img
+            src="/lab02-InHiBiToRs/imgs/GettyImages-526245433.jpg"
+            width="180px"
+            height="150px"
+            class="d-none d-sm-block"
+            style="object-fit: cover"
+          />
+        </div>
+        <div class="p-4">
+          <p class="fw-bold fs-5">swimming</p>
+          <span class="text-muted"
+            >Swimming is the only sport I like to do and enjoy with that.</span
+          >
+        </div>
+      </div>
+    </div>
+    <p class="text-center text-muted m-4">
+      © 2023 lab03-InHiBiToRs.com by Tanakrit Boonyoung
+    </p>
   </body>
 </html>
